@@ -25,3 +25,5 @@ The repository should be installed following the instructions provided in the [H
 In particular download this repo and use **pip install .** on the directory HF_SEGFORMER.
 
 Alternatively, if you prefer another method, there is a `requir.txt` file in the `hf_proj` directory that lists all the dependencies.
+
+Then download the weights with the google drive link from the report. Decompress the file and put each directory in the directoy HF_SEGFORMER/hf_proj.
