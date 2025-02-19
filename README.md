@@ -20,9 +20,7 @@ The dataset is freely accessible on Hugging Face, but you will need a Hugging Fa
 token = see the report
 
 ## Installation
-
-The repository should be installed following the instructions provided in the [Hugging Face Transformers repository](https://github.com/huggingface/transformers).
-In particular, download my repository and follow the instructions below.
+Download my repository and follow the instructions below.
 
 - **Build a conda environment:**
   - `conda create --name seg`
