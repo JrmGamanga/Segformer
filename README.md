@@ -22,8 +22,22 @@ token = see the report
 ## Installation
 
 The repository should be installed following the instructions provided in the [Hugging Face Transformers repository](https://github.com/huggingface/transformers).
-In particular download this repo and use **pip install .** on the directory HF_SEGFORMER.
+In particular, download my repository and follow the instructions below.
 
-Alternatively, if you prefer another method, there is a `requir.txt` file in the `hf_proj` directory that lists all the dependencies.
+- **Build a conda environment:**
+  - `conda create --name seg`
+  - `conda activate seg`
+
+- **Install transformers using conda:**
+  - `conda install conda-forge::transformers`
+
+- **Go to the directory `HF_SEGFORMER` and then run:**
+  - `pip install transformers[torch]`
+  - `pip install pillow`
+  - `pip install torchvision`
+  - `pip install evaluate`
+  - `pip install .`
+
+- If you prefer an alternative method, there is a file `requir.txt` in the `hf_proj` directory that lists all the dependencies.
 
 Then download the weights with the google drive link from the report. Decompress the file and put each directory in the directoy HF_SEGFORMER/hf_proj.
