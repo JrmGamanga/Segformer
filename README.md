@@ -22,5 +22,6 @@ token = see the report
 ## Installation
 
 The repository should be installed following the instructions provided in the [Hugging Face Transformers repository](https://github.com/huggingface/transformers).
+In particular download this repo and use **pip install .** on the directory HF_SEGFORMER.
 
 Alternatively, if you prefer another method, there is a `requir.txt` file in the `hf_proj` directory that lists all the dependencies.
